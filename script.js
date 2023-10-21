@@ -24,7 +24,7 @@ if (promedio > 6){
 };
 
 
-//Tercera//
+//Tercero//
 let a = parseFloat(prompt("Número uno"));
 let b = parseFloat(prompt("Número dos"));
 
@@ -60,7 +60,7 @@ if (peso <= 40){
 };
 
 
-//Sexta//
+//Sexto//
 let dia = parseFloat(prompt("Escriba un número del 1 al 7"));
 
 if (dia === 1){
@@ -82,7 +82,7 @@ if (dia === 1){
 };
 
 
-//Séptima//
+//Séptimo//
 let gasto = parseFloat(prompt("Ingrese el valor de su compra (dólares)"))
 
 if (gasto > 1000){
@@ -92,7 +92,7 @@ if (gasto > 1000){
 };
 
 
-//Octava//
+//Octavo//
 let horas = prompt("Ingrese cuántas horas trabaja")
 
 if (horas <= 40){
@@ -102,7 +102,7 @@ if (horas <= 40){
 };
 
 
-//Novena//
+//Noveno//
 let persona1 = prompt("Ingrese el nombre de la primer persona")
 let edad1 = prompt("Ingrese la edad")
 
@@ -116,7 +116,7 @@ if (edad1 > edad2){
 };
 
 
-//Décima//
+//Décimo//
 let camisas = prompt("Ingrese el total de camisas compradas")
 
 if (camisas >= 3){
