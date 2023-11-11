@@ -1,7 +1,9 @@
-//Primero//
-let edad = prompt("Ingrese su edad");
+/*
 
-if (edad >= 18){
+//Primero//
+let Edad = prompt("Ingrese su edad");
+
+if (Edad >= 18){
     alert("Usted es mayor de edad")
 } else {
     alert("Usted es menor de edad")
@@ -204,17 +206,18 @@ if (numVe > 0){
 //Decimosexto//
 let notaC = parseFloat(prompt("Ingrese la nota de Algoritmos"));
 
-if (notaC > 1.0 && notaC < 3.3){
-    alert("Su desempeño es BAJO")
-} else if (notaC > 3.4 && notaC < 3.8){
-    alert("Su desempeño es BASICO")
-} else if (notaC > 3.9 && notaC < 4.4){
-    alert("Su desempeño es ALTO")
-} else if (notaC > 4.5 && notaC < 5.0){
-    alert("Su desempeño es SUPERIOR")
+if (notaC <= 3.3){
+    alert("Su desempeño es BAJO. Su nota es " + notaC)
+} else if (notaC <= 3.8){
+    alert("Su desempeño es BASICO. Su nota es " + notaC)
+} else if (notaC <= 4.4){
+    alert("Su desempeño es ALTO. Su nota es " + notaC)
+} else if (notaC <= 5.0){
+    alert("Su desempeño es SUPERIOR. Su nota es " + notaC)
 } else {
     alert("Error. Ingrese una nota válida")
 };
+
 
 
 //Decimoséptimo//
@@ -248,23 +251,25 @@ if (numEs < 10){
 	alert("Error. Ingrese un número válido")
 };
 
+*/
 
 //Decimonoveno//
 let user = prompt("Ingrese su nombre de usuario");
 let pass = prompt("Digite su contraseña")
 
 if (user === "admin"){
-	if (pass === "12345"){
+	if (pass === "12345"){k
 		alert("Acceso aprobado");
 	} else {
-		alert("El usuario existe. La contraseña es incorrecta")
+		alert("La contraseña es incorrecta")
 	}
 } else if (pass == "12345"){
-	alert("El usuario no existe")
+	alert("Nombre de usuario incorrecto")
 } else {
-	alert("Acceso denegado")
+	alert("Usuario no registrado")
 };
 
+/*
 
 //Vigésimo//
 let genero = prompt("Ingrese su género"); 
@@ -275,3 +280,5 @@ if (genero === "masculino" || genero === "Masculino" && edad >= 18){
 } else {
 	alert("Usted no es elegible para prestar el servicio militar")
 };
+
+*/
